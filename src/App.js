@@ -1,13 +1,16 @@
-import React, { useEffect } from 'react';
-import { Route, BrowserRouter as Router, Routes, useNavigate } from 'react-router-dom';
-import { v4 as uuidV4 } from 'uuid';
-import TextEditor from "./Components/TextEditor";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TextEditor from './Components/TextEditor';
 import './all.css';
-  
 
 function App() {
-  
-   <TextEditor/>
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<TextEditor />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
