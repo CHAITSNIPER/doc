@@ -17,12 +17,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/docs/:id' element={<TextEditor />} />
-      </Routes>
-    </Router>
+   <TextEditor/>
   );
 }
 
