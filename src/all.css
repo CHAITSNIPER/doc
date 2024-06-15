@@ -11,7 +11,7 @@ body{
     padding: 1in;
     margin: 1rem;
     box-shadow: 0 0 5px 0;
-    position: absolute;
+    position: relative;
     left: 13rem;
     background-color: aliceblue;
 }
