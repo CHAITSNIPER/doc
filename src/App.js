@@ -3,8 +3,6 @@ import { Route, BrowserRouter as Router, Routes, useNavigate } from 'react-route
 import { v4 as uuidV4 } from 'uuid';
 import TextEditor from "./Components/TextEditor";
 import './all.css';
-
-function Home() {
   
 
 function App() {
