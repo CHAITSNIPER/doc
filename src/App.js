@@ -6,9 +6,8 @@ import './all.css';
   
 
 function App() {
-  return (
+  
    <TextEditor/>
-  );
 }
 
 export default App;
